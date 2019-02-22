@@ -1,7 +1,7 @@
 import React from "react";
 import { Route } from "react-router-dom";
 
-import Toolbar from "./views/Toolbar";
+import Toolbar from "./components/Toolbar";
 import Home from "./views/Home";
 import Counter from "./views/Counter";
 import Lister from "./views/Lister";
