@@ -45,5 +45,5 @@ def api_items_id(_id):
         return dumps(edit_item)
     if request.method == 'DELETE':
         item.delete_one({"_id": ObjectId(_id)})
-        return f'deleted {delete_item}'
+        return f'deleted {_id}'
     return dumps(list(item.find({"_id": ObjectId(_id)})))
