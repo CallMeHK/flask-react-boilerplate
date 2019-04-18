@@ -4,10 +4,10 @@ This is a basic implementation of a crud application, with a react frontend, fla
 
 ## Set up
 
-Clone project
-make sure you have python+pipenv installed
-`cd flask-react-boilerplate`
-`pipenv install`
-`npm install`
-`flask run`
-`npm run dev`
+-Clone project
+ - make sure you have python+pipenv installed
+ - `cd flask-react-boilerplate`
+ - `pipenv install`
+ - `npm install`
+ - `flask run`
+ - `npm run dev`
